@@ -262,3 +262,113 @@ ul button {
   text-align: center;
   margin: 48px 0;
 }
+
+.target-container {
+  display: flex;
+  flex-direction: column;
+  width: 1140px;
+  height: 460px;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+.target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.target-description {
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+  opacity: 0.7;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.html-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  border-radius: 16px;
+  padding: 40px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.html-image {
+  width: 56px;
+  height: 56px;
+  margin: 24px 0;
+}
+
+.html-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.html-desc {
+  color: rgb(13, 19, 33);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.html-link {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin: 24px 0;
+}
+
+.css-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  padding: 40px;
+
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  padding: 40px;
+
+  border-radius: 16px;
+
+  background: rgba(255, 223, 0, 0.05);
+}
