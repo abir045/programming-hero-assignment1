@@ -39,6 +39,7 @@ ul button {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  background-color: white;
 }
 
 .logo {
@@ -164,6 +165,7 @@ ul button {
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
+  border-radius: 16px;
   padding: 48px;
 }
 
