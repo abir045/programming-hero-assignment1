@@ -459,7 +459,7 @@ ul button {
   margin-top: 80px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
-  width: 1440px;
+  /* width: 1440px; */
   height: 100px;
 }
 
