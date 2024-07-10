@@ -482,7 +482,7 @@ ul button {
   gap: 24px;
 }
 
-button a {
+a:link {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
