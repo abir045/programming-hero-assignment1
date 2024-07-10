@@ -312,6 +312,9 @@ ul button {
   border-radius: 16px;
   padding: 40px;
   background: rgba(255, 76, 30, 0.05);
+  width: 280px;
+
+  height: 299px;
 }
 
 .html-image {
@@ -339,6 +342,7 @@ ul button {
   letter-spacing: 0%;
   text-align: left;
   opacity: 0.7;
+  width: 100%;
 }
 
 .html-link {
@@ -348,8 +352,10 @@ ul button {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
-  text-decoration-line: underline;
+  text-decoration: underline;
   margin: 24px 0;
+  width: 364px;
+  height: 299px;
 }
 
 .css-card {
@@ -361,18 +367,23 @@ ul button {
 
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
+  width: 280px;
+  height: 299px;
+  /* flex: 1; */
 }
 
 .js-card {
   display: flex;
   flex-direction: column;
   text-align: left;
-
+  /* flex: 1; */
   padding: 40px;
 
   border-radius: 16px;
 
   background: rgba(255, 223, 0, 0.05);
+  width: 280px;
+  height: 299px;
 }
 
 #support {
@@ -384,7 +395,7 @@ ul button {
   padding: 64px 48px;
   flex-direction: column;
   align-items: center;
-  background-image: url("assets/handshake.jpg");
+  background: url("assets/handshake.jpg");
   background-position: center;
   background-size: cover;
   width: 1050px;
@@ -392,8 +403,7 @@ ul button {
   margin: 0 auto;
   border-radius: 16px;
 
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url(Email);
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
 }
 
 .support-title {
@@ -403,6 +413,7 @@ ul button {
   line-height: 36px;
   letter-spacing: 0%;
   text-align: center;
+  margin-top: 64px;
 }
 
 .support-desc {
@@ -482,9 +493,4 @@ ul button {
   margin-right: 150px;
   margin-top: 35px;
   gap: 24px;
-}
-
-a:link {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
 }
