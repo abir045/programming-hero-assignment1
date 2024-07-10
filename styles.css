@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+nav {
+  height: 131px;
+  padding: 50px 0;
+  margin: 0 150px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+ul li {
+  list-style: none;
+}
+
+ul button {
+  padding: 17px 24px 17px 24px;
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.logo {
+  color: rgb(13, 19, 33);
+  /* font-family: Azeret Mono; */
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.header-container {
+  background: url("assets/Hero-bg.png");
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 1440px 652px; */
+  height: 652px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header-img {
+  margin-top: 26px;
+}
+
+.header-title {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.header-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.contact-btn {
+  padding: 21px 24px 21px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  margin-top: 32px;
+}
